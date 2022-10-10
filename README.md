@@ -21,7 +21,7 @@ After this, you can run the following command:
 -> node src/index.js
 
 
-It will start this server in "http://localhost:PORT/", where the <PORT> 
+It will start this server in "http://localhost:PORT/", where the PORT
 is an environment variable.
 
 ====================================================================================

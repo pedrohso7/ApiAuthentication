@@ -1,7 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3000;
+const dotenv = require('dotev');
+dotenv.config();
 
 
 app.use(bodyParser.json());
@@ -12,4 +13,4 @@ require('./app/controllers/index')(app);
 app.get('/hello', (req, res) => res.send('Hello World!'));
 
 
-app.listen(port, () => console.log(`Servidor rodando na porta ${port}!`));
+app.listen(process.env.PORT, () => console.log(`Servidor rodando na porta ${process.env.PORT}!`));

@@ -1,9 +1,11 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config(); 
 
 const connectionParams = { useNewUrlParser: true, useUnifiedTopology: true };
 
 try{
-    mongoose.connect('mongodb+srv://pedrohso7:l6EUixKjWTR8F7Ox@answermecluster.z3txbov.mongodb.net/answerMeDB?retryWrites=true&w=majority', connectionParams);
+    mongoose.connect(process.env.DATABASE_URL, connectionParams);
 } catch (error){
     throw "Não foi possível conectar ao banco de dados";
 }

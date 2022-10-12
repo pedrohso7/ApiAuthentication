@@ -26,7 +26,7 @@ This is a test restful API wich have some authentication endpoints as:
           
 -> Token Verification using JWT.
           
-It was made to test my personal mobile projects, especially [this](https://github.com/pedrohso7/mobileCleanProjectTemplate)
+It was made to test my personal mobile projects, especially [this](https://github.com/pedrohso7/mobileCleanProjectTemplate).
 </p>
 
 ## ✦ Technologies

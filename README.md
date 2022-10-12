@@ -52,9 +52,7 @@ A get method that receive email and password as query params and return a body w
 <h4>Register: /auth/register</h4>
 
 
-<p align="justify"> 
-A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.
-</ṕ>
+<p align="justify">A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.</p>
 
 
 <img alt="Register" title="App" src="https://user-images.githubusercontent.com/32853995/195408184-adb4c7b9-9f82-4f8f-a6ac-4f2ee712136d.png" width="400"/>

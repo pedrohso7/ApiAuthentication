@@ -19,9 +19,13 @@
 ## ✦ Project
 <p align="justify">
 This is a test restful API wich have some authentication endpoints as:
+          
 -> Login
+          
 -> Register
+          
 -> Token Verification using JWT.
+          
 It was made to test my personal mobile projects, especially [this](https://github.com/pedrohso7/mobileCleanProjectTemplate)
 </p>
 
@@ -56,7 +60,7 @@ A post method that receive email, password and name as body params and return a 
 
 <h4>Token Verification using JWT: /auth/token</h4>
 
-<ṕ align="justify"> 
+<p align="justify">
 A get method that receive token and user id as query params and verify if the token is valid, returning a boolean.
 </p>
 

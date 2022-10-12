@@ -43,7 +43,7 @@ You can freely use this endpoints:
 A get method that receive email and password as query params and return a body with the user and token if user exists.
 </p>
 
-![carbon (3)](https://user-images.githubusercontent.com/32853995/195408304-a4ba173a-2c99-41a8-a512-95b42cb10b44.png)
+<img alt="Splash View" title="App" src="https://user-images.githubusercontent.com/32853995/195408304-a4ba173a-2c99-41a8-a512-95b42cb10b44.png" width="250"/>
 
 <h4>Register: /auth/register</h4>
 
@@ -51,13 +51,13 @@ A get method that receive email and password as query params and return a body w
 A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.
 </ṕ>
 
-![carbon (2)](https://user-images.githubusercontent.com/32853995/195408184-adb4c7b9-9f82-4f8f-a6ac-4f2ee712136d.png)
+<img alt="Splash View" title="App" src="https://user-images.githubusercontent.com/32853995/195408184-adb4c7b9-9f82-4f8f-a6ac-4f2ee712136d.png" width="250"/>
 
 <h4>Token Verification using JWT: /auth/token</h4>
 
 <ṕ align="justify">A get method that receive token and user id as query params and verify if the token is valid, returning a boolean</p>
 
-![carbon (1)](https://user-images.githubusercontent.com/32853995/195408096-4c51a1f5-df6b-4c74-b3df-03e2a057011a.png)
+<img alt="Splash View" title="App" src="https://user-images.githubusercontent.com/32853995/195408096-4c51a1f5-df6b-4c74-b3df-03e2a057011a.png" width="250"/>
 
 ## ✦ Usage
 <p align="justify">

@@ -39,8 +39,8 @@ You can freely use this endpoints:
 
 <h4>Login: /auth/login</h4>
 
-<ṕ align="justify">
-A get method that receive email and password as query params and return a body with the user and token if user exists.
+<ṕ align="justify"> A get method that receive email and password as query params and return a body with the user and token if user exists.
+
 query_params: {
   "email": "pedro.oliveira@teste.com",
   "password": "dev"
@@ -49,7 +49,8 @@ query_params: {
 
 <h4>Register: /auth/register</h4>
 
-A get method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.
+<p align="justify">
+A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.
 body_params: {
   "name": "Pedro Oliveira Silva",
   "email": "pedro.oliveira@teste.com",

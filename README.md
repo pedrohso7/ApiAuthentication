@@ -43,11 +43,7 @@ You can freely use this endpoints:
 A get method that receive email and password as query params and return a body with the user and token if user exists.
 </p>
 
-<p align="justify">query_params: {
-  "email": "pedro.oliveira@teste.com",
-  "password": "dev"
-}
-</p>
+![carbon (3)](https://user-images.githubusercontent.com/32853995/195408304-a4ba173a-2c99-41a8-a512-95b42cb10b44.png)
 
 <h4>Register: /auth/register</h4>
 
@@ -55,22 +51,13 @@ A get method that receive email and password as query params and return a body w
 A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.
 </ṕ>
 
-<p align="justify"> body_params: {
-  "name": "Pedro Oliveira Silva",
-  "email": "pedro.oliveira@teste.com",
-  "password": "dev"
-}
-</p>
+![carbon (2)](https://user-images.githubusercontent.com/32853995/195408184-adb4c7b9-9f82-4f8f-a6ac-4f2ee712136d.png)
 
 <h4>Token Verification using JWT: /auth/token</h4>
 
 <ṕ align="justify">A get method that receive token and user id as query params and verify if the token is valid, returning a boolean</p>
 
-<p align="justify">query_params: {
-  "token": "Pedro Oliveira Silva",
-  "userId": "pedro.oliveira@usecargo.mobi",
-}
-</p>
+![carbon (1)](https://user-images.githubusercontent.com/32853995/195408096-4c51a1f5-df6b-4c74-b3df-03e2a057011a.png)
 
 ## ✦ Usage
 <p align="justify">

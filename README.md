@@ -30,7 +30,7 @@ It was made to test my personal mobile projects, especially [this](https://githu
 </p>
 
 ## ✦ Technologies
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was made using the tecnologies below:
 - [NodeJs](https://nodejs.org/en/)
 - [BCrypt](https://www.npmjs.com/package/bcrypt)
 - [Express](https://expressjs.com/pt-br)

@@ -40,7 +40,7 @@ You can freely use this endpoints:
 <h4>Login: /auth/login</h4>
 
 <p align="justify">
-          A get method that receive email and password as query params and return a body with the user and token if user exists.
+A get method that receive email and password as query params and return a body with the user and token if user exists.
 </p>
 
 <img alt="Splash View" title="App" src="https://user-images.githubusercontent.com/32853995/195408304-a4ba173a-2c99-41a8-a512-95b42cb10b44.png" width="400"/>
@@ -56,7 +56,9 @@ A post method that receive email, password and name as body params and return a 
 
 <h4>Token Verification using JWT: /auth/token</h4>
 
-<ṕ align="justify"> A get method that receive token and user id as query params and verify if the token is valid, returning a boolean </p>
+<ṕ align="justify"> 
+A get method that receive token and user id as query params and verify if the token is valid, returning a boolean.
+</p>
 
 <img alt="Splash View" title="App" src="https://user-images.githubusercontent.com/32853995/195408096-4c51a1f5-df6b-4c74-b3df-03e2a057011a.png" width="400"/>
 

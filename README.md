@@ -39,13 +39,14 @@ You can freely use this endpoints:
 
 <h4>Login: /auth/login</h4>
 
-<p align="justify"> 
-A get method that receive email and password as query params and return a body with the user and token if user exists.
+<p align="justify">
+          A get method that receive email and password as query params and return a body with the user and token if user exists.
 </p>
 
 <img alt="Splash View" title="App" src="https://user-images.githubusercontent.com/32853995/195408304-a4ba173a-2c99-41a8-a512-95b42cb10b44.png" width="400"/>
 
 <h4>Register: /auth/register</h4>
+
 
 <p align="justify"> 
 A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.

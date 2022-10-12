@@ -39,9 +39,9 @@ You can freely use this endpoints:
 
 <h4>Login: /auth/login</h4>
 
-<ṕ align="justify"> A get method that receive email and password as query params and return a body with the user and token if user exists.
+<p align="justify"> A get method that receive email and password as query params and return a body with the user and token if user exists.</p>
 
-query_params: {
+<p align="justify">query_params: {
   "email": "pedro.oliveira@teste.com",
   "password": "dev"
 }
@@ -49,9 +49,9 @@ query_params: {
 
 <h4>Register: /auth/register</h4>
 
-<p align="justify">
-A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.
-body_params: {
+<p align="justify"> A post method that receive email, password and name as body params and return a body with the user and token if user doesn't exist.</ṕ>
+
+<p align="justify"> body_params: {
   "name": "Pedro Oliveira Silva",
   "email": "pedro.oliveira@teste.com",
   "password": "dev"
@@ -60,9 +60,9 @@ body_params: {
 
 <h4>Token Verification using JWT: /auth/token</h4>
 
-<ṕ align="justify"> 
-A get method that receive token and user id as query params and verify if the token is valid, returning a boolean
-query_params: {
+<ṕ align="justify">A get method that receive token and user id as query params and verify if the token is valid, returning a boolean</p>
+
+<p align="justify">query_params: {
   "token": "Pedro Oliveira Silva",
   "userId": "pedro.oliveira@usecargo.mobi",
 }
